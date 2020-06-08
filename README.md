@@ -30,7 +30,26 @@ Ebenso erfolgt eine Klartextausgabe über den seriellen Monitor, wenn er Taster 
 Der Schaltplan zu dem Projekt ist [hier](https://github.com/CRBK/Rolladensteuerung/blob/master/Schaltplan.pdf) zu finden.
 
 ## Komponentenliste
-
+* Arduino
+* Taster
+   * Auf 
+   * Zu
+   * Stop
+* Wahlschalter Hand/ Automatik
+* LED´s 
+   * Rot  P1 (Windwarnung)
+   * Gelb P2 (Dämmerung)
+   * Grün P3 (Auffahrt)
+   * Grün P4 (Zufahrt)
+* Poti´s
+   * Sollwertvorgabe Wind
+   * Sollwertvorgabe Dämmerung
+* Windsensor - https://www.amazon.de/Eltako-Windsensor-WS/dp/B0018LBFG8 (simuliert mit Poti)
+* LDR
+* 2 stk. Relais zur Motoransteuerung 
+(https://eckstein-shop.de/5V-220V-2-Channel-Optocouplers-Relay-Shield-for-Arduino-Optokoppler-Relais-Modul?gclid=CjwKCAjwhOD0BRAQEiwAK7JHmDFOuYZx6fTf-5ashzG0MYxnc3YtHgYE7g4iQayORHhfT-ZqGMiXcxoCtKoQAvD_BwE)
+Alternative:
+https://www.conrad.de/de/p/weidmueller-optokopplerrelais-tos-5vdc-48vdc-0-5a-last-strom-max-0-5-a-schaltspannung-max-48-v-dc-1-st-506843.html
 
 
 ## Programm
