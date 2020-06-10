@@ -42,14 +42,14 @@ Der Schaltplan zu dem Projekt ist [hier](https://github.com/CRBK/Rolladensteueru
    * Grün P3 (Auffahrt)
    * Grün P4 (Zufahrt)
 * Widerstände
-   * 4 Stk. 450 Ω (Vorwiderstände für LEDs)
+   * 4 Stk. 450 Ω (Vorwiderstände, abhängig von verbauten LEDs)
    * 1 Stk. 10 kΩ (Widerstand für LDR)
 * Potentiometer
-   * Sollwertvorgabe Wind (250 kΩ)
-   * Sollwertvorgabe Dämmerung (250 kΩ)
+   * Sollwertvorgabe Wind (1 Stk. 250 kΩ)
+   * Sollwertvorgabe Dämmerung (1 Stk. 250 kΩ)
 * [Windsensor](https://github.com/CRBK/Rollladensteuerung/tree/master/Daten%20Windsensor) 0-5V [hier](https://www.amazon.de/Windsensor-Spannungssignal-Windgeschwindigkeit-Sender-anemomete/dp/B07HSZ4L3X) ein Beispiel, in Tinkercad simuliert durch Potentiometer (250kΩ)
 * LDR
-* 2 stk. [Optokoppler/Relais-Kombination](https://eckstein-shop.de/5V-220V-2-Channel-Optocouplers-Relay-Shield-for-Arduino-Optokoppler-Relais-Modul?gclid=CjwKCAjwhOD0BRAQEiwAK7JHmDFOuYZx6fTf-5ashzG0MYxnc3YtHgYE7g4iQayORHhfT-ZqGMiXcxoCtKoQAvD_BwE) zur Motoransteuerung 
+* 1 Stk. [Optokoppler/Relais-Kombination](https://eckstein-shop.de/5V-220V-2-Channel-Optocouplers-Relay-Shield-for-Arduino-Optokoppler-Relais-Modul?gclid=CjwKCAjwhOD0BRAQEiwAK7JHmDFOuYZx6fTf-5ashzG0MYxnc3YtHgYE7g4iQayORHhfT-ZqGMiXcxoCtKoQAvD_BwE) zur Motoransteuerung 
 * Alternativ:
 [Optokoppler](https://www.conrad.de/de/p/weidmueller-optokopplerrelais-tos-5vdc-48vdc-0-5a-last-strom-max-0-5-a-schaltspannung-max-48-v-dc-1-st-506843.html) und [Relais](https://de.rs-online.com/web/p/interface-relaismodule/8928861), dann wird zusätzlich noch eine 24V Spannungsquelle benötigt.
 
