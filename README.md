@@ -58,6 +58,6 @@ Der Schaltplan zu dem Projekt ist [hier](https://github.com/CRBK/Rolladensteueru
 
 [Aktueller Programmstand](https://github.com/CRBK/Rollladensteuerung/blob/master/Programm/Rollladensteuerung)
 
-## Videbeschreibung
+## Videobeschreibung
 
 Eine kurzes Video zur Simulation des Projektes in Tinkercad befindet sich [hier](https://github.com/CRBK/Rolladensteuerung/blob/master/Video%20TinkerCad/Rollladensteuerung.mp4).
