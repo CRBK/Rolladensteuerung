@@ -47,7 +47,7 @@ Der Schaltplan zu dem Projekt ist [hier](https://github.com/CRBK/Rolladensteueru
 * Potentiometer
    * Sollwertvorgabe Wind (250 kΩ)
    * Sollwertvorgabe Dämmerung (250 kΩ)
-* [Windsensor](https://github.com/CRBK/Rollladensteuerung/tree/master/Daten%20Windsensor) 0-5V (in Tinkercad simuliert durch Potentiometer mit 250kΩ)
+* [Windsensor](https://github.com/CRBK/Rollladensteuerung/tree/master/Daten%20Windsensor) 0-5V [hier](https://www.amazon.de/Windsensor-Spannungssignal-Windgeschwindigkeit-Sender-anemomete/dp/B07HSZ4L3X) ein Beispiel, in Tinkercad simuliert durch Potentiometer (250kΩ)
 * LDR
 * 2 stk. [Optokoppler/Relais-Kombination](https://eckstein-shop.de/5V-220V-2-Channel-Optocouplers-Relay-Shield-for-Arduino-Optokoppler-Relais-Modul?gclid=CjwKCAjwhOD0BRAQEiwAK7JHmDFOuYZx6fTf-5ashzG0MYxnc3YtHgYE7g4iQayORHhfT-ZqGMiXcxoCtKoQAvD_BwE) zur Motoransteuerung 
 * Alternativ:
