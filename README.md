@@ -30,26 +30,28 @@ Ebenso erfolgt eine Klartextausgabe über den seriellen Monitor, wenn er Taster 
 Der Schaltplan zu dem Projekt ist [hier](https://github.com/CRBK/Rolladensteuerung/blob/master/Schaltplan.pdf) zu finden.
 
 ## Komponentenliste
-* Arduino
+* Arduino Uno
 * Taster
    * Auf 
    * Zu
-   * Stop
-* Wahlschalter Hand/ Automatik
+   * Stopp
+* Wahlschalter Automatik / Hand
 * LED´s 
    * Rot  P1 (Windwarnung)
    * Gelb P2 (Dämmerung)
    * Grün P3 (Auffahrt)
    * Grün P4 (Zufahrt)
-* Poti´s
-   * Sollwertvorgabe Wind
-   * Sollwertvorgabe Dämmerung
-* Windsensor - https://www.amazon.de/Eltako-Windsensor-WS/dp/B0018LBFG8 (simuliert mit Poti)
+* Widerstände
+   * 4 Stk. 450 Ω (Vorwiderstände für LEDs)
+   * 1 Stk. 10 kΩ (Widerstand für LDR)
+* Potentiometer
+   * Sollwertvorgabe Wind (250 kΩ)
+   * Sollwertvorgabe Dämmerung (250 kΩ)
+* [Windsensor](https://github.com/CRBK/Rollladensteuerung/tree/master/Daten%20Windsensor) 0-5V (in Tinkercad simuliert durch Potentiometer mit 250kΩ)
 * LDR
-* 2 stk. Relais zur Motoransteuerung 
-(https://eckstein-shop.de/5V-220V-2-Channel-Optocouplers-Relay-Shield-for-Arduino-Optokoppler-Relais-Modul?gclid=CjwKCAjwhOD0BRAQEiwAK7JHmDFOuYZx6fTf-5ashzG0MYxnc3YtHgYE7g4iQayORHhfT-ZqGMiXcxoCtKoQAvD_BwE)
-Alternative:
-https://www.conrad.de/de/p/weidmueller-optokopplerrelais-tos-5vdc-48vdc-0-5a-last-strom-max-0-5-a-schaltspannung-max-48-v-dc-1-st-506843.html
+* 2 stk. [Optokoppler/Relais-Kombination](https://eckstein-shop.de/5V-220V-2-Channel-Optocouplers-Relay-Shield-for-Arduino-Optokoppler-Relais-Modul?gclid=CjwKCAjwhOD0BRAQEiwAK7JHmDFOuYZx6fTf-5ashzG0MYxnc3YtHgYE7g4iQayORHhfT-ZqGMiXcxoCtKoQAvD_BwE) zur Motoransteuerung 
+* Alternativ:
+[Optokoppler](https://www.conrad.de/de/p/weidmueller-optokopplerrelais-tos-5vdc-48vdc-0-5a-last-strom-max-0-5-a-schaltspannung-max-48-v-dc-1-st-506843.html) und [Relais](https://de.rs-online.com/web/p/interface-relaismodule/8928861), dann wird zusätzlich noch eine 24V Spannungsquelle benötigt.
 
 
 ## Programm
